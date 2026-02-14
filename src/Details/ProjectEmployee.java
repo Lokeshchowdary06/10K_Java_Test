@@ -89,6 +89,7 @@ public class ProjectEmployee extends Employee {
 								sc.close();
 								System.exit(0);
 							}
+					default: System.out.println("Enter Wrong option..\n Try Again... :-)");
 
 				}
 				
