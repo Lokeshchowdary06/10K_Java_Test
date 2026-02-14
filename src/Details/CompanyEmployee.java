@@ -25,8 +25,9 @@ public class CompanyEmployee {
 		}
 		sc.nextLine();
 		ProjectEmployee pe = new ProjectEmployee(projectName, projectRole, perf);
-		System.out.println();
+		System.out.println("hello");
 		while(true)
+	
 		{
 			System.out.println("-----Menu----\n1.UPDATE PROJECT ROLE\n2.UPDATE PROJECT NAME\n3.VIEW EMPLOYEE PROFILE\n4.VIEW AVERAGE PERFORMANCE\n5.EXIT");
 			int option = sc.nextInt();
