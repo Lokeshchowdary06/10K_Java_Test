@@ -25,7 +25,7 @@ public class CompanyEmployee {
 		}
 		sc.nextLine();
 		ProjectEmployee pe = new ProjectEmployee(projectName, projectRole, perf);
-		System.out.println("hello");
+		
 		while(true)
 	
 		{
